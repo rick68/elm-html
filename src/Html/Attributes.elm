@@ -289,9 +289,9 @@ dir value =
 
 
 {-| Defines whether the element can be dragged. -}
-draggable : String -> Attribute
-draggable value =
-  stringProperty "draggable" value
+draggable : Bool -> Attribute
+draggable bool =
+  boolProperty "draggable" bool
 
 
 {-| Indicates that the element accept the dropping of content on it. -}
